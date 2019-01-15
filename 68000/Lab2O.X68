@@ -80,7 +80,7 @@ START:                      ; first instruction of program
 *    MOVE.B  (A0),D0         ; store E in D0 temporarily
 *    MOVE.B  -(A1),(A0)+     ; swap F (V+5) with E
 *    MOVE.B  D0,(A1)         ; swap E (from D0) with F
-
+ 
 *~Font name~Courier New~
 *~Font size~10~
 *~Tab type~1~
