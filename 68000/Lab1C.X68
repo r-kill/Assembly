@@ -18,7 +18,7 @@ START:                  ; first instruction of program
     LEA.L	$002020,A3  ; load abc... into A3
     LEA.L	$002040,A4  ; load 0123.. into A4
     LEA.L	$002200,A1  ; allocate space for result
-
+    
     MOVE.B	$002016,(A1)+   ; move W to A1
     MOVE.B	$002024,(A1)+   ; move e to A1
     MOVE.B	$00202B,(A1)+   ; move l to A1
