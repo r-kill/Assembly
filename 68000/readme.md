@@ -1,9 +1,9 @@
 # Programs Included:
 Name + short description.
-1. Lab 1.C
-    ???Abstract...
-2. Lab 1.O
-    -Abstract...
+1. Lab 1.C  
+    Abstract...
+2. Lab 1.O\
+    Abstract...
 
 # For each program:
 1. List the code in the file.
