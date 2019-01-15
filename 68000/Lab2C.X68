@@ -34,7 +34,7 @@ START:                          ; first instruction of program
                                 ;   code worksheet, may need MOVE.L
                                 ;   and the '#$' notation to replicate
                                 ;   Lab 2.C worksheet.
-
+ 
 *   change register values
     MOVE.B  3(A6),D3            ; move 'A' into D3
     MOVE.W  4(A4),6(A6)         ; move FF into $251E
