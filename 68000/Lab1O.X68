@@ -12,7 +12,7 @@
     DC.L 'abcdefghijklmnopqrstuvwxyz'
     ORG    $2040
     DC.W '0123456789'  
-
+ 
 START:                  ; first instruction of program
     LEA.L	$002000,A2  ; load ABC... into A2
     LEA.L	$002020,A3  ; load abc... into A3
