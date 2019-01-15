@@ -1,6 +1,6 @@
 # Programs Included:
 Name + short description.
-1. Lab 1.C  
+1. Lab 1.C  <!-- put two spaces or \ at the end of a line to show next info on newline -->
     Abstract...
 2. Lab 1.O\
     Abstract...
