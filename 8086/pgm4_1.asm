@@ -19,9 +19,9 @@ MOV BL,AL	  ; save character in BL
 
 ; go to newline
 MOV AH,2	  ; display character function
-MOV DL,0DH      ; 0DH is carriage return code
-INT 21H         ; execute carriage return
-MOV DL,0AH      ; 0AH is line feed code
+MOV DL,0DH        ; 0DH is carriage return code
+INT 21H           ; execute carriage return
+MOV DL,0AH        ; 0AH is line feed code
 INT 21H		  ; execute line feed
 
 ; display character
