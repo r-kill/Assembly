@@ -30,4 +30,4 @@ INT 21H		  ; display char that's now in DL
 
 ; return to DOS
 MOV AH,4CH	  ; DOS exit function code
-INT 21H       ; exit to DOS
+INT 21H           ; exit to DOS
