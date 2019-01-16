@@ -1,5 +1,8 @@
 # Assembly
-Programs written in various assembly languages.
+Programs written in various assembly languages.\
+Includes:\
+1. Motorola 68000 assembly.
+2. x86 assembly.
 
 # Programs Included:
 Name + short description.
