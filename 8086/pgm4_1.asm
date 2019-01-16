@@ -14,7 +14,7 @@ INT 21H           ; display char
 
 ; input a char
 MOV AH,1	  ; read character function
-INT 21H       ; get input character in AL
+INT 21H         ; get input character in AL
 MOV BL,AL	  ; save character in BL
 
 ; go to newline
