@@ -10,7 +10,7 @@ ORG 100H	  ; define starting point
 ; display prompt
 MOV AH,2	  ; display character function
 MOV DL,'?'	  ; character is '?'
-INT 21H       ; display char
+INT 21H         ; display char
 
 ; input a char
 MOV AH,1	  ; read character function
